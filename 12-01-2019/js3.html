@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>string concatenation</title>
+        </head>
+
+<body>
+
+<h2> string concatenation</h2>
+
+<p id="string"></p>
+
+<script>
+var person = {
+  firstName : "Keerthana",
+  age     : 20,
+  eyeColor  : "blue"
+};
+
+document.getElementById("string").innerHTML =
+person.firstName + " is " + person.age + " years old." + "she have " + person.eyeColor +" eyes";
+</script>
+
+<!--if we add number to a string then number will be treated as a string
+ -->
+
+<p id="numCon">   </p>
+
+<!--in javascript arthametic operations will perform from left to right here i given 5 +5+krathi then it will be 10kranthi
+    if given 5+kranthi+5 then it will be 5kranthi5. because if number add to string then number will become string-->
+<p id="num2"> </p>
+
+ <script>
+ x = 5;
+ y = "kranthi";
+ 
+ z = x+y;
+
+ document.getElementById("numCon").innerHTML = z;
+a = 5 ;
+ x = 5;
+ y = "kranthi";
+ 
+ z = a+ x+y;
+ document.getElementById("num2").innerHTML = z;
+ </script>
+
+</body>
+</html>
