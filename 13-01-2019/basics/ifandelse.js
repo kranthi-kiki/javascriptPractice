@@ -1,4 +1,4 @@
-// creating a grade system using if and elae
+// creating a grade system using if and else
 
 /*
 print as amazing if marks = 10
