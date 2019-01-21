@@ -1,5 +1,6 @@
 function r() {    
  var num1 = document.getElementById("num1").value;
+ console.log(num1);
 
  var num2 = document.getElementById("num2").value;
  if ( (num1==50)|| (num2==50) ||((num1+num2)==50)) {
