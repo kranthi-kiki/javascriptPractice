@@ -1,6 +1,8 @@
 document.querySelector('.sinup').addEventListener('submit',(event)=>{
     
     event.preventDefault();
+    let fullName= event.target.fullname.value;
+    console.log(fullName);
     console.log(event.target.fullname.value)
     console.log(event.target.email.value)
     console.log(event.target.password.value)
