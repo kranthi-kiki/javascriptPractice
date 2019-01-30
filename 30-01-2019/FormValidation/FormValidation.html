@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='style.css' type='text/css' /> 
+    <script src="FormValidation.js"></script>
+</head>
+<body>
+    <h2> please SinUp </h2>
+    <div>
+        <form name="sinup" onSubmit="return sinpuValidation();">
+            <ul>
+                <li><label for="username" > UserName</label></li>
+                <li><input type="text" name="username" size="25"></li>
+                <li><label for="fullname">FullName</label></li>
+                <li><input type="text" name="fullname" size="25"></li>
+                <li><label for="email">Email</label></li>
+                <li><input type="email" name="email"> </li>
+                <li><label for="mobile">Mobile Number</label></li>
+                <li><input type="text" name="mobile"></li>
+                <li><label for="password">PassWord</label></li>
+                <li><input type="password" name="password"></li>
+                  <!--     Gender           -->
+                <li><label id="gender">Gender</label></li>
+                <li><input type="radio" name="msex" value="Male"><span> Male</span></li>
+                <li><input type="radio" name="fsex" value="female"><span>Female</span></li>
+                <!--        Language          -->
+                <li><label id="language">Language</label></li>
+                <li><input type="checkbox" name="EN" value="EN"><span>English</span></li>
+                <li><input type="checkbox" name="H" value="H"><span>Hindi</span></li>
+                 <!--       Address          -->
+                <li><label>Enter Address for PaperBack Delivery</label></li>
+                <li><label for="address">Address</label></li>
+                <li><input type="text" name="address"></li>
+                <!--Country-->
+                <li><label for="country">country</label></li>
+                <select name="country">
+                <option selected="" value="Default">(select your country)</option>
+                <option value="IN">India</option>
+                <option value="USA">USA</option>
+                <option value="RA">Russia</option></select>
+                <li><label for="pincode">Pincode</label></li>
+                <li><input type="text" name="pincode" size="12"></li>
+                <!-- Submit-->
+               <li><input type="submit" name="submit" value="submit"></li>
+
+            </ul> 
+
+        </form>
+    </div>
+</body>
+</html>
