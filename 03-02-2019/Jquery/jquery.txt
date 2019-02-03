@@ -1,0 +1,82 @@
+jQuery:
+****************************************************
+$ - to difine or access jQuery
+(selector)- to find html element
+$(" selector").action() : action - to be performed
+
+**********
+$(document).ready(function(){
+
+  // jQuery methods go here...
+
+}); -- it is a good practice to write any jQuery in document so document will be fully loaded and ready before working with it
+
+*******
+jQuery selectors allows you to select and manipulate multiple html elements.
+ it works on existing CSS selectors and it has it own selectors
+
+$("*") - selects all the elements
+$(this)- selects the currents html element
+$("P.intro") - selects all <P> elements with class intro
+
+
+$("p:first")- selects first <p> elements
+ 
+$("ul li:first")- selects first li of first ul 
+
+$("ul li:first-child")- selects first li element of every ul
+
+$("[herf]")- selects all elements with herf attribute
+
+$("a[target='_blank']") - selects all elements with tagret value equals to _blank
+
+$(":button")- selects all button elements and input elements of type button
+
+$("tr:even")- selects all even tr elements
+
+$("tr:odd") - selects all odd tr elements
+
+*********
+jQuery syntax for Events Methods
+$("").click():- for click event
+
+$("").dblclick() 
+
+
+$("").mouseenter();
+
+$("").mouseleave();
+
+
+$("").mouseup();
+$("").mousedown();
+
+$("").hover();
+
+$("").focus();
+
+$("").blur();
+
+*********************************************
+jQuery Effects:
+
+Hide;
+show;
+toggle;
+slide;
+fade;
+animate
+___________________
+hide & show - with jQuery we can hide and show the html elements using show 
+
+___________________
+fade:-
+fadeIn();fadeOut();fadeToggle();fadeTo()
+
+fadeIn()- used to fadeIn hidden html element;
+syntax:$("").fadeIn(speed, callback)[perameters are optional]; for speed there three type: slow; fast; we can give speed in milli seconds
+
+
+
+f
+
