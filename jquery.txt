@@ -77,6 +77,36 @@ fadeIn()- used to fadeIn hidden html element;
 syntax:$("").fadeIn(speed, callback)[perameters are optional]; for speed there three type: slow; fast; we can give speed in milli seconds
 
 
+fadeOut();
+fadeToggle();
 
-f
+**********
+slideUp();
+slideDown();
+slideToggle();
+****************
+animate();
+stop();
+*************
+chaining:allows us to run multiple jQuery commands, one after the other, on the same element(s).
+*******************
+jQuery HTMl:
+Get - to get html content >>text();html();val(); to get attribuit attr();
+
+
+set();
+add:> append();prepend();after();before();
+remve:> remve()- entair element;
+        empty()- remve child of element
+css: addClass();
+      remveClass();
+      togglrClass();
+       css()
+***************
+jQuery Traversing:-
+ancestors:- praent();parents();parentsUntill();
+
+Descendants:- childern(); find();
+Siblings:- siblings();next();nextAll();nextUntill();prev();prevUntill()
+                      
 
