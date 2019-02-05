@@ -1,0 +1,23 @@
+jQuery Selectors
+*****************
+
+* : $("*") <br>
+#id: $("#idName")<br>
+.class: $(".className");<br>
+.class,.class: $(".className1,.className2")<br>
+element : $("elementTag")
+el1,el2,el3: $("el1Tag,el2Tag,el3Tag")
+
+:first : $("p:first") - first p element
+:last  : $("p:last")- last p element
+:even  :$("tr:even") - all tr even
+:odd   :$("tr:odd") - all tr odd
+
+:first-child : $("p:first-child") - all p element that are first child of there parents
+:first-of-type : $("p:first-of-type") - all p element that are first p element of there parents
+
+:last-child: $("p:last-child")
+:last-of-type : $("p:last-of-type")
+
+clearQueue : to stop 
+

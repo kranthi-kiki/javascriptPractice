@@ -109,4 +109,19 @@ ancestors:- praent();parents();parentsUntill();
 Descendants:- childern(); find();
 Siblings:- siblings();next();nextAll();nextUntill();prev();prevUntill()
                       
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+W3resources:
+************
+toggleClass(): to toggle between classes
 
+delegate():method attaches one or more event handlers for specified elements that are children of selected elements, and specifies a function to run when the events occur.
+
+
+keyup():
+keydown();
+keypress();
+
+cancle the default action:preventDefault()
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
