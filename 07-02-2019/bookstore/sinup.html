@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="sinup.js"></script>
+
+    <style>
+        input[type=text], input[type=password],input[type=email] 
+        input[type=checkbox]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+        h2{
+            color:lightcoral;
+            left:50px;
+            position: absolute;
+        }
+    .container {
+     top: 50px;
+     position: absolute;
+    left: 0;
+    margin: 10px;
+    padding: 15px;
+    
+    /* background-color:none; */
+}
+ul{
+    list-style-type:none
+}
+.btn {
+  background-color:lightcoral;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  overflow: hidden;
+}
+body{
+  background-image: url("bookspics/book4.jpeg");
+ }
+    </style>
+</head>
+<body > 
+    <h2> please SinUp </h2>
+    <div class="container">
+        <form name="sinup" onSubmit="return sinpuValidation();">
+            <ul >
+                <li><label for="username" ><b> UserName</b></label></li>
+                <li><input type="text" id="usename" name="username" size="25"></li>
+                <li><label for="fullname"><b>FullName</b></label></li>
+                <li><input type="text" name="fullname" size="25"></li>
+                <li><label for="email"><b>Email</b></label></li>
+                <li><input type="text" name="email"> </li>
+                <li><label for="mobile"><b>Mobile Number</b></label></li>
+                <li><input type="text" name="mobile"></li>
+                <li><label for="password"><b>PassWord</b></label></li>
+                <li><input type="password" name="password"></li>
+                <li><label for="password"><b>Re-Enter PassWord</b></label></li>
+                <li><input type="password" name="password"></li>
+                  <!--     Gender           -->
+                <li><label id="gender"><b>Gender</b></label></li>
+                <li><input type="radio" name="msex" value="Male"><span> <b>Male</b></span></li>
+                <li><input type="radio" name="fsex" value="female"><span><b>Female</b></span></li>
+                <!--        Language          -->
+                <br>
+                <li><label id="language"><b>Language</b></label></li>
+                <li><input type="checkbox" name="EN" value="EN"><span><b>English</b></span></li>
+                <li><input type="checkbox" name="H" value="H"><span><b>Hindi</b></span></li>
+              
+            </ul> 
+                 <!-- Submit-->
+            <button type="submit"  class="btn" name="submit"><b> SinUp</b></button>
+
+        </form>
+    </div>
+</body>
+</html>
+
+
+         <!-- Address         
+                <li><label>Enter Address for PaperBack Delivery</label></li>
+                <li><label for="address"><b>Address</b></label></li>
+                <li><input type="text" name="address"></li>
+                 Country-->
+                <!-- <li><label for="country"><b>country</b></label></li>
+                <select name="country">
+                <option selected="" value="Default">(select your country)</option>
+                <option value="IN">India</option>
+                <option value="USA">USA</option>
+                <option value="RA">Russia</option></select>
+                <li><label for="pincode"><b>Pincode</b></label></li>
+                <li><input type="text" name="pincode" size="12"></li> -->

@@ -7,7 +7,7 @@ $("button").click(function(){
 
    down();
    function down(callback){
-       console.log("down1")
+     //  console.log("down1")
     $("#b1").animate({top:r1});
     $("#b3").animate({top:r2});
     $("#b5").animate({top:r1});
@@ -36,3 +36,21 @@ $("button").click(function(){
 })
 
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
