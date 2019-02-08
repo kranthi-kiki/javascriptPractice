@@ -1,0 +1,30 @@
+[
+    {
+        "name": "boult",
+        "images": [
+            "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2490892/2019/1/29/6f25dd1d-773e-449a-8fbd-88f9e474baa71548766805436-Boult-Black-Audio-Curve-Neckband-Wireless-Bluetooth-Magnetic-2.jpg",
+            "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2490892/2019/1/29/eae795b5-8985-46f8-a80c-27530feaea7d1548766805479-Boult-Black-Audio-Curve-Neckband-Wireless-Bluetooth-Magnetic-1.jpg",
+            "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2490892/2019/1/29/58e6e837-ea1e-4fa5-a3bc-6fe419c9f0c31548766805359-Boult-Black-Audio-Curve-Neckband-Wireless-Bluetooth-Magnetic-3.jpg",
+            "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2490892/2019/1/29/4b8e2039-8bdf-4cae-a6c1-c6d7a4f8590b1548766805279-Boult-Black-Audio-Curve-Neckband-Wireless-Bluetooth-Magnetic-4.jpg"
+        ],
+        "rating": 3.6,
+        "actualPrice": 4499,
+        "discountedPrice": 1349,
+        "discount": 70,
+        "discription": " Magnetic Earphone with Mic"
+    },
+    {
+        "name": "fossil",
+        "images": [
+            "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6972916/2018/11/19/d3edad59-b7c9-411a-ac7b-2b741e71fe9b1542616821791-Fossil-Men-Black-Analogue-Watch-191542616820828-2.jpg",
+            "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6972916/2018/11/19/d3edad59-b7c9-411a-ac7b-2b741e71fe9b1542616821791-Fossil-Men-Black-Analogue-Watch-191542616820828-2.jpg",
+            "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6972916/2018/11/19/95125238-1c66-41cf-99c4-ba79d999a30e1542616821805-Fossil-Men-Black-Analogue-Watch-191542616820828-1.jpg",
+            "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/6972916/2018/11/19/d9ff6506-0acc-4ffd-881c-84220a0aab461542616821782-Fossil-Men-Black-Analogue-Watch-191542616820828-3.jpg"
+        ],
+        "rating": 3.5,
+        "actualPrice": 8995,
+        "discountedPrice": 4497,
+        "discount": 50,
+        "discription": "Men Black Analogue Watch JR1353_OR"
+    }
+]

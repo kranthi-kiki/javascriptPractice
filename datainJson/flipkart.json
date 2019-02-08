@@ -1,0 +1,18 @@
+[{
+        "name":"Apple Iphone 8 plus (Gold 64 Gb)",
+        "image":"https://rukminim1.flixcart.com/image/312/312/j7ksia80/mobile/u/z/b/apple-iphone-8-plus-mq8j2hn-a-original-imaexsfmnxjcfc8t.jpeg?q=70",
+
+        "AvgRating":4.6,
+        "numberOfRating":2899,
+        "colors":["gold","silver","grey"],
+        "reviews":326,
+        "actualPrice":77560,
+        "discountedPrice":68999,
+        "dicount":11,
+        "exchangeDiscount":14750,
+        "MinEmi":2292,
+        "emiPlans":{"stateBankofIndia":{"3":23000,"6":11500},"bajajFinser":{"3":23000,"6":11500}},
+        "offers":["No Cost EMI","Special Price"],
+        "specification":["64 GB ROM","13.97 cm (5.5 inch) Retina HD Display","12MP + 12MP | 7MP Front Camera","A11 Bionic Chip with 64-bit Architecture, Neural Engine, Embedded M11 Motion Coprocessor Processor","Brand Warranty of 1 Year"]
+    }
+]

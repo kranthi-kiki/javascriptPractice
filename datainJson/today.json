@@ -1,0 +1,47 @@
+ [
+    {  "name":"HP 1000-1b10AU Portable Laptop ",
+       "image":"https://xavica.blob.core.windows.net/tdimages/94460b19-a8ac-4573-b2c6-304bbccbd5b3.jpeg",
+       "discription":"(AMD APU A4- 2GB RAM- 500GB HDD- 14 Inches- DOS)",
+       "actualPrice":21321,
+       "discountedPrice":18990,
+       "discount":11,
+       "site":"SHOP@ BAGITTODY",
+       "redirectionalUrl":"http://www.bagittoday.com/hp-1000-1b10au-portable-laptop-amd-apu-a4--2gb-ram--500gb-hdd--14-inches--dos/pr-510246_c-2443/?src=TodayDiscounts"
+
+},
+
+{
+  "name":"DELL INSPIRON 5542",
+  "image":"https://xavica.blob.core.windows.net/tdimages/94460b19-a8ac-4573-b2c6-304bbccbd5b3.jpeg",
+  "discription":"CORE i5-4210U/4GB/1TB/15.6 INCH/2GB GRAPHICS/DOS/WITHOUT BAG",
+ "actualPrice":44990,
+ "discountedPrice":40674,
+ "discount":10,
+ "site":"SHOP@ BAGITTODY",
+ "redirectionalUrl":"http://www.bagittoday.com/hp-1000-1b10au-portable-laptop-amd-apu-a4--2gb-ram--500gb-hdd--14-inches--dos/pr-510246_c-2443/?src=TodayDiscounts"
+},
+{
+    "name":"Lenovo IdeaPad Z580/59-333345",
+    "image":"https://xavica.blob.core.windows.net/tdimages/94460b19-a8ac-4573-b2c6-304bbccbd5b3.jpeg",
+    "discription":"",
+    "actualPrice":48290,
+    "discountedPrice":43499,
+    "discount":10,
+    "site":"SHOP@ BAGITTODY",
+ "redirectionalUrl":"http://www.bagittoday.com/hp-1000-1b10au-portable-laptop-amd-apu-a4--2gb-ram--500gb-hdd--14-inches--dos/pr-510246_c-2443/?src=TodayDiscounts"
+},
+
+{
+    "name":"Lenovo IdeaPad Z580/59-333651",
+    "image": "https://xavica.blob.core.windows.net/tdimages/94460b19-a8ac-4573-b2c6-304bbccbd5b3.jpeg",
+    "discription":"",
+    "actualPrice":39899,
+    "discountedPrice":37238,
+    "discount":7,
+    "site":"SHOP@ BAGITTODY",
+ "url":"http://www.bagittoday.com/hp-1000-1b10au-portable-laptop-amd-apu-a4--2gb-ram--500gb-hdd--14-inches--dos/pr-510246_c-2443/?src=TodayDiscounts"
+
+}]
+
+
+
